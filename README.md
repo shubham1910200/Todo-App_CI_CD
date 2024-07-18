@@ -5,7 +5,7 @@ A simple todo app built with django
 ### Setup
 To get this repository, run the following command inside your git enabled terminal
 ```bash
-$ git clone https://github.com/shreys7/django-todo.git
+$ git clone https://github.com/shubham1910200/Todo-App_CI_CD.git
 ```
 You will need django to be installed in you computer to run this app. Head over to https://www.djangoproject.com/download/ for the download guide
 
@@ -39,15 +39,16 @@ Cheers and Happy Coding :)
 
 ```bash
 pip freeze> requirement.txt
-<<<<<<< HEAD
+- Purpose: pip freeze lists all installed Python packages and their versions. It's particularly useful when you want to document or replicate the exact environment where your Python project runs.
+
 ```
 =======
-```
+
 ## requirements
-```
-nohup python3 manage.py runserver 0.0.0.0:8000 &
+
+```nohup python3 manage.py runserver 0.0.0.0:8000 &
 ssh -i "~/project1.pem" ubuntu@ec2-44-201-201-120.compute-1.amazonaws.com
-source myenv/bin/activate
+source myenv/bin/activate```
 
 ```
 # Step-by-Step Installation of Django

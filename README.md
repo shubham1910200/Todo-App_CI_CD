@@ -47,8 +47,7 @@ pip freeze> requirement.txt
 ## requirements
 
 ```nohup python3 manage.py runserver 0.0.0.0:8000 &
-ssh -i "~/project1.pem" ubuntu@ec2-44-201-201-120.compute-1.amazonaws.com
-source myenv/bin/activate```
+
 
 ```
 # Step-by-Step Installation of Django

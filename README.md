@@ -112,5 +112,25 @@ sudo docker pull jenkins/jenkins
 sudo docker run -d -p 8080:8080 docker.io/jenkins/jenkins:latest
 ```
 
+# Create CI CD Pipeline using git hub
+```bash
+1. firstly start the jenkins 
+
+2. Install github plugin if is not installed in jenkins
+
+3. Click one New Item and give the name of pipeline and select freestyle project
+4. Go to the Manage Jenkins and select System in a System go Github  and provide details of github account.
+5. Go to Source Code Management and select Git and give the details of repository, and In password give token and branch
+6. In a build Steps select Execute shell and provide your all commands
+```
+## Docker compose
+- Docker compose is a tool for defining and running multi-container Docker applications. To use Docker compose, you create a Yaml file (typically name `docker-compose.yml`) to define the services and configuration for your application.
+
+```bash
+ docker-compose config
+ docker-compose up
+ docker-compose down
+```
+
 
 

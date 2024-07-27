@@ -130,6 +130,7 @@ sudo docker run -d -p 8080:8080 docker.io/jenkins/jenkins:latest
  docker-compose config
  docker-compose up
  docker-compose down
+ docker-compose up -d --force-recreate --no-deps --build web
 ```
 
 

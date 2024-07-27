@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: todo-dev-app
+spec:
+  containers:
+  - name: todo-dev-app
+    image: soma1999/todo-dev-app
+    ports:
+    - containerPort: 8000
